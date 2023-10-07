@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>facebook login page</title>
+	<style type="text/css">
+		* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    .body
+    {
+    	background-color: #f0f2f5;
+    	margin-left: 20%;
+    	margin-top: 15%;
+    	font-size: 30px;
+    }
+		.mdiv
+		{
+			position: absolute;
+			height: 100%;
+			width: 100;
+
+		}
+		.head
+		{
+			font-size: 200px;
+		}
+		.bg
+		{
+      background-color: whitesmoke;
+			height: 100%;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+			top: 0PX;
+			left: 0PX;
+		}
+		.lgnfrm
+		{
+			background-color: white;
+			width: 400PX;
+			height: 325PX;
+			box-shadow: 5px 5px 10px whitesmoke;
+			margin-top: -185px;
+			margin-left: 150%;
+
+		}
+		.input
+		{
+			width: 95%;
+			margin-top: 15PX;
+			height: 150PX;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2PX solid white;
+			color: black;
+			font-size: 30px;
+			text-align: center;
+			font-weight: bolder;
+		}
+		input:focus
+		{
+			outline:: none;
+		}
+		.IP1
+		{
+			width: 87%;
+			height: 45PX;
+			border-radius: 5PX;
+			border-color: none;
+			margin-top: 10px;
+			font-size: 17px;
+			padding-left: 15px;
+		}
+      .IP1:focus
+      {
+         outline: none;
+         border-color: #1877f2;
+      }
+		input[type="button"]
+		{
+			border:none;
+			background-color: royalblue;
+			height: 50PX;
+			width: 90%;
+			color: white;
+			font-size: 22PX;
+			font-weight: bolder;
+			border-radius: 5PX;
+			margin-top: 10px;
+			margin-bottom: 10PX;
+		}
+		input[type="button"]:hover
+		{
+			border: 2PX solid black;	
+		}
+		a
+		{
+			font-size: 20PX;
+            text-decoration: none;
+            color: royalblue;
+		}
+		.crt 
+		{
+			color: white;
+			background-color: #4CBB17;
+			border-radius: 4px;
+			border: none;
+			margin-top: 5px;
+			height: 40PX;
+			width: 50%;
+			font-weight: bolder;
+			font-size: 15px;
+			margin-bottom:10px;
+
+		}
+    .fp 
+    {
+    	font-size: 17px;
+    }
+	</style>
+</head>
+<body class="body">
+	<h1 style="color:#1877f2;">facebook</h1><br>
+          <p>Connect with friends and the world <br>
+             around you on Facebook.</p>
+          
+	<div align="LEFT">
+
+    <div class="mdiv">
+    	<div class="lgnfrm" align="CENTER">
+    		<form autocomplete="OFF">
+    			
+    			<input type="text" name="USERNAME" placeholder="Email or phone number" class="IP1" id="usr">
+    			<br>
+    			<input type="password" name="PWD" placeholder="Password" style="margin-bottom: 10PX;" class="IP1" id="pass">
+    			<input type="button" name="LGN" value="Log in" class="lgnbtn"><br>
+    			<span><a class="fp" href="#">Forgotten password?</a></span><br>
+    			<hr size="2px" noshade width="90%" align="CENTER" style="margin-top: 10px; margin-bottom: 15px; background-color: lightgreyS;">
+    			<div>
+    				<button class="crt">Create new account</button>
+    			</div>
+    		</form>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
